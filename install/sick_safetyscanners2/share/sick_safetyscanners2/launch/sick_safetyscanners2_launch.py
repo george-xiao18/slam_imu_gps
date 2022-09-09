@@ -1,0 +1,1 @@
+/home/ros2/slam_ws/src/sick_safetyscanners2/launch/sick_safetyscanners2_launch.py

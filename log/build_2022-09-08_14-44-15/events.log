@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.003310] (sick_safetyscanners2) JobQueued: {'identifier': 'sick_safetyscanners2', 'dependencies': OrderedDict()}
+[0.003437] (sick_safetyscanners2) JobStarted: {'identifier': 'sick_safetyscanners2'}
+[0.019112] (sick_safetyscanners2) JobProgress: {'identifier': 'sick_safetyscanners2', 'progress': 'cmake'}
+[0.020363] (sick_safetyscanners2) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/slam_ws/src/sick_safetyscanners2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/slam_ws/install/sick_safetyscanners2'], 'cwd': '/home/ros2/slam_ws/build/sick_safetyscanners2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2042'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros2'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/ros2/slam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1863'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:66489'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ros2/miniconda3/bin:/home/ros2/miniconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2102,unix/ubuntu:/tmp/.ICE-unix/2102'), ('INVOCATION_ID', '670d9eb3439549fa8950861cf7224a29'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/661799f4_1910_428a_9b11_eb3bf6045d43'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ros2/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros2/slam_ws/build/sick_safetyscanners2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ros2/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/ros2/miniconda3'), ('TZ', 'Asia/Shanghai'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098667] (sick_safetyscanners2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100974] (-) TimerEvent: {}
+[0.188568] (sick_safetyscanners2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.194647] (sick_safetyscanners2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.201397] (-) TimerEvent: {}
+[0.298663] (sick_safetyscanners2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.299787] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301998] (-) TimerEvent: {}
+[0.402825] (-) TimerEvent: {}
+[0.411859] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.425200] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.425601] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.430897] (sick_safetyscanners2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.503778] (-) TimerEvent: {}
+[0.538041] (sick_safetyscanners2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.539300] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.604234] (-) TimerEvent: {}
+[0.654746] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.670367] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.670954] (sick_safetyscanners2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.673452] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.696279] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found PythonInterp: /home/ros2/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") \n'}
+[0.696566] (sick_safetyscanners2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/ros2/miniconda3/bin/python3\n'}
+[0.705087] (-) TimerEvent: {}
+[0.805729] (-) TimerEvent: {}
+[0.906453] (-) TimerEvent: {}
+[0.979953] (sick_safetyscanners2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.007114] (-) TimerEvent: {}
+[1.015814] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono \n'}
+[1.018477] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.075883] (sick_safetyscanners2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.083706] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.107853] (-) TimerEvent: {}
+[1.206111] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.208989] (-) TimerEvent: {}
+[1.238562] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.309460] (-) TimerEvent: {}
+[1.340789] (sick_safetyscanners2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.410193] (-) TimerEvent: {}
+[1.416501] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.418253] (sick_safetyscanners2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.419315] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.510840] (-) TimerEvent: {}
+[1.532164] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.532822] (sick_safetyscanners2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.611439] (-) TimerEvent: {}
+[1.648139] (sick_safetyscanners2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.648699] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.711985] (-) TimerEvent: {}
+[1.735472] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.735885] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.813280] (-) TimerEvent: {}
+[1.835139] (sick_safetyscanners2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.836529] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.913788] (-) TimerEvent: {}
+[2.015212] (-) TimerEvent: {}
+[2.054428] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[2.097875] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.116304] (-) TimerEvent: {}
+[2.217013] (-) TimerEvent: {}
+[2.276804] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread \n'}
+[2.282275] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found sick_safetyscanners2_interfaces: 1.0.0 (/opt/ros/foxy/share/sick_safetyscanners2_interfaces/cmake)\n'}
+[2.317995] (-) TimerEvent: {}
+[2.418457] (-) TimerEvent: {}
+[2.441470] (sick_safetyscanners2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.475646] (sick_safetyscanners2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.476130] (sick_safetyscanners2) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[2.476409] (sick_safetyscanners2) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[2.476557] (sick_safetyscanners2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[2.480043] (sick_safetyscanners2) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[2.480356] (sick_safetyscanners2) StderrLine: {'line': b'  execute_process(/home/ros2/miniconda3/bin/python3\n'}
+[2.480455] (sick_safetyscanners2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.480527] (sick_safetyscanners2) StderrLine: {'line': b'  /home/ros2/slam_ws/src/sick_safetyscanners2/package.xml\n'}
+[2.480595] (sick_safetyscanners2) StderrLine: {'line': b'  /home/ros2/slam_ws/build/sick_safetyscanners2/ament_cmake_core/package.cmake)\n'}
+[2.480662] (sick_safetyscanners2) StderrLine: {'line': b'  returned error code 1\n'}
+[2.480729] (sick_safetyscanners2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.480808] (sick_safetyscanners2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.480875] (sick_safetyscanners2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.480949] (sick_safetyscanners2) StderrLine: {'line': b'  CMakeLists.txt:88 (ament_lint_auto_find_test_dependencies)\n'}
+[2.481016] (sick_safetyscanners2) StderrLine: {'line': b'\n'}
+[2.481082] (sick_safetyscanners2) StderrLine: {'line': b'\n'}
+[2.482991] (sick_safetyscanners2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.483112] (sick_safetyscanners2) StdoutLine: {'line': b'See also "/home/ros2/slam_ws/build/sick_safetyscanners2/CMakeFiles/CMakeOutput.log".\n'}
+[2.483301] (sick_safetyscanners2) StdoutLine: {'line': b'See also "/home/ros2/slam_ws/build/sick_safetyscanners2/CMakeFiles/CMakeError.log".\n'}
+[2.494992] (sick_safetyscanners2) CommandEnded: {'returncode': 1}
+[2.519630] (-) TimerEvent: {}
+[2.531429] (sick_safetyscanners2) JobEnded: {'identifier': 'sick_safetyscanners2', 'rc': 1}
+[2.543363] (-) EventReactorShutdown: {}

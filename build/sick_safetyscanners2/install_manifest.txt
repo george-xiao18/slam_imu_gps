@@ -1,0 +1,2 @@
+/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_node
+/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_lifecycle_node

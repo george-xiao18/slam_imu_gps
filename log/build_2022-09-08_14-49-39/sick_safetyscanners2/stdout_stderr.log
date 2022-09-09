@@ -1,0 +1,66 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/ros2/miniconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono 
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+-- Found sick_safetyscanners2_interfaces: 1.0.0 (/opt/ros/foxy/share/sick_safetyscanners2_interfaces/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/slam_ws/src/sick_safetyscanners2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros2/slam_ws/build/sick_safetyscanners2
+[35m[1mScanning dependencies of target sick_safetyscanners2_node[0m
+[35m[1mScanning dependencies of target sick_safetyscanners2_lifecycle_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/sick_safetyscanners2_lifecycle_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/sick_safetyscanners2_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/SickSafetyscannersLifeCycle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/utils/MessageCreator.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/SickSafetyscannersRos2.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/utils/MessageCreator.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable sick_safetyscanners2_lifecycle_node[0m
+[ 87%] Built target sick_safetyscanners2_lifecycle_node
+[100%] [32m[1mLinking CXX executable sick_safetyscanners2_node[0m
+[100%] Built target sick_safetyscanners2_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2//launch/sick_safetyscanners2_launch.py
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2//launch/sick_safetyscanners2_lifecycle_launch.py
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/package_run_dependencies/sick_safetyscanners2
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/parent_prefix_path/sick_safetyscanners2
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/path.sh
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/path.dsv
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.bash
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.sh
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.zsh
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.dsv
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/package.dsv
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/packages/sick_safetyscanners2
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/sick_safetyscanners2Config.cmake
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/sick_safetyscanners2Config-version.cmake
+-- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/package.xml
+-- Installing: /home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_node
+-- Set runtime path of "/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_node" to ""
+-- Installing: /home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_lifecycle_node
+-- Set runtime path of "/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_lifecycle_node" to ""

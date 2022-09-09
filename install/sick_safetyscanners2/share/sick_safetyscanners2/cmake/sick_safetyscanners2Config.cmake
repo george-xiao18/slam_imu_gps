@@ -1,0 +1,1 @@
+/home/ros2/slam_ws/build/sick_safetyscanners2/ament_cmake_core/sick_safetyscanners2Config.cmake

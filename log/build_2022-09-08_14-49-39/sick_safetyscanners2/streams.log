@@ -1,0 +1,72 @@
+[0.027s] Invoking command in '/home/ros2/slam_ws/build/sick_safetyscanners2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ros2/slam_ws/src/sick_safetyscanners2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/slam_ws/install/sick_safetyscanners2
+[0.041s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /home/ros2/miniconda3/bin/python3
+[0.283s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.301s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono 
+[0.302s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.817s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[0.856s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.038s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[1.040s] -- Found sick_safetyscanners2_interfaces: 1.0.0 (/opt/ros/foxy/share/sick_safetyscanners2_interfaces/cmake)
+[1.201s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.845s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.850s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.851s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/slam_ws/src/sick_safetyscanners2/include>
+[1.851s] -- Configured cppcheck exclude dirs and/or files: 
+[1.855s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.855s] -- Configured cpplint exclude dirs and/or files: 
+[1.859s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.862s] -- Added test 'lint_cmake' to check CMake code style
+[1.864s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.869s] -- Added test 'uncrustify' to check C / C++ code style
+[1.869s] -- Configured uncrustify additional arguments: 
+[1.871s] -- Added test 'xmllint' to check XML markup files
+[1.880s] -- Configuring done
+[1.932s] -- Generating done
+[1.935s] -- Build files have been written to: /home/ros2/slam_ws/build/sick_safetyscanners2
+[1.948s] Invoked command in '/home/ros2/slam_ws/build/sick_safetyscanners2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ros2/slam_ws/src/sick_safetyscanners2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/slam_ws/install/sick_safetyscanners2
+[1.954s] Invoking command in '/home/ros2/slam_ws/build/sick_safetyscanners2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ros2/slam_ws/build/sick_safetyscanners2 -- -j4 -l4
+[2.031s] [35m[1mScanning dependencies of target sick_safetyscanners2_node[0m
+[2.032s] [35m[1mScanning dependencies of target sick_safetyscanners2_lifecycle_node[0m
+[3.372s] [ 12%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/sick_safetyscanners2_lifecycle_node.cpp.o[0m
+[3.378s] [ 25%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/sick_safetyscanners2_node.cpp.o[0m
+[3.378s] [ 37%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/SickSafetyscannersLifeCycle.cpp.o[0m
+[3.394s] [ 50%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_lifecycle_node.dir/src/utils/MessageCreator.cpp.o[0m
+[19.812s] [ 62%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/SickSafetyscannersRos2.cpp.o[0m
+[26.125s] [ 75%] [32mBuilding CXX object CMakeFiles/sick_safetyscanners2_node.dir/src/utils/MessageCreator.cpp.o[0m
+[32.007s] [ 87%] [32m[1mLinking CXX executable sick_safetyscanners2_lifecycle_node[0m
+[33.409s] [ 87%] Built target sick_safetyscanners2_lifecycle_node
+[35.844s] [100%] [32m[1mLinking CXX executable sick_safetyscanners2_node[0m
+[36.389s] [100%] Built target sick_safetyscanners2_node
+[36.409s] Invoked command in '/home/ros2/slam_ws/build/sick_safetyscanners2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ros2/slam_ws/build/sick_safetyscanners2 -- -j4 -l4
+[36.484s] Invoking command in '/home/ros2/slam_ws/build/sick_safetyscanners2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ros2/slam_ws/build/sick_safetyscanners2
+[36.497s] -- Install configuration: ""
+[36.498s] -- Execute custom install script
+[36.499s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2//launch/sick_safetyscanners2_launch.py
+[36.512s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2//launch/sick_safetyscanners2_lifecycle_launch.py
+[36.525s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/package_run_dependencies/sick_safetyscanners2
+[36.537s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/parent_prefix_path/sick_safetyscanners2
+[36.550s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/ament_prefix_path.sh
+[36.564s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/ament_prefix_path.dsv
+[36.577s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/path.sh
+[36.591s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/environment/path.dsv
+[36.604s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.bash
+[36.619s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.sh
+[36.631s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.zsh
+[36.644s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/local_setup.dsv
+[36.658s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/package.dsv
+[36.672s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/ament_index/resource_index/packages/sick_safetyscanners2
+[36.686s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.700s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/sick_safetyscanners2Config.cmake
+[36.714s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/cmake/sick_safetyscanners2Config-version.cmake
+[36.727s] -- Symlinking: /home/ros2/slam_ws/install/sick_safetyscanners2/share/sick_safetyscanners2/package.xml
+[36.740s] -- Installing: /home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_node
+[36.745s] -- Set runtime path of "/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_node" to ""
+[36.746s] -- Installing: /home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_lifecycle_node
+[36.748s] -- Set runtime path of "/home/ros2/slam_ws/install/sick_safetyscanners2/lib/sick_safetyscanners2/sick_safetyscanners2_lifecycle_node" to ""
+[36.752s] Invoked command in '/home/ros2/slam_ws/build/sick_safetyscanners2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ros2/slam_ws/build/sick_safetyscanners2

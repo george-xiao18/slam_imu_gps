@@ -1,0 +1,62 @@
+[0.022s] Invoking command in '/home/ros2/slam_ws/build/sick_safetyscanners2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ros2/slam_ws/src/sick_safetyscanners2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/slam_ws/install/sick_safetyscanners2
+[0.095s] -- The C compiler identification is GNU 9.4.0
+[0.185s] -- The CXX compiler identification is GNU 9.4.0
+[0.191s] -- Check for working C compiler: /usr/bin/cc
+[0.295s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.296s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.422s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++
+[0.535s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.536s] -- Detecting CXX compiler ABI info
+[0.651s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Detecting CXX compile features
+[0.668s] -- Detecting CXX compile features - done
+[0.670s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.693s] -- Found PythonInterp: /home/ros2/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.693s] -- Using PYTHON_EXECUTABLE: /home/ros2/miniconda3/bin/python3
+[0.977s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.013s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono 
+[1.015s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.073s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.235s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.413s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.416s] -- Looking for pthread.h
+[1.529s] -- Looking for pthread.h - found
+[1.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.645s] -- Looking for pthread_create in pthreads
+[1.732s] -- Looking for pthread_create in pthreads - not found
+[1.732s] -- Looking for pthread_create in pthread
+[1.832s] -- Looking for pthread_create in pthread - found
+[1.833s] -- Found Threads: TRUE  
+[2.051s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.095s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.273s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[2.279s] -- Found sick_safetyscanners2_interfaces: 1.0.0 (/opt/ros/foxy/share/sick_safetyscanners2_interfaces/cmake)
+[2.438s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.472s] Traceback (most recent call last):
+[2.473s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[2.473s]     from catkin_pkg.package import parse_package_string
+[2.473s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.477s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[2.477s]   execute_process(/home/ros2/miniconda3/bin/python3
+[2.477s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.477s]   /home/ros2/slam_ws/src/sick_safetyscanners2/package.xml
+[2.477s]   /home/ros2/slam_ws/build/sick_safetyscanners2/ament_cmake_core/package.cmake)
+[2.477s]   returned error code 1
+[2.477s] Call Stack (most recent call first):
+[2.477s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.477s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.477s]   CMakeLists.txt:88 (ament_lint_auto_find_test_dependencies)
+[2.478s] 
+[2.478s] 
+[2.480s] -- Configuring incomplete, errors occurred!
+[2.480s] See also "/home/ros2/slam_ws/build/sick_safetyscanners2/CMakeFiles/CMakeOutput.log".
+[2.480s] See also "/home/ros2/slam_ws/build/sick_safetyscanners2/CMakeFiles/CMakeError.log".
+[2.492s] Invoked command in '/home/ros2/slam_ws/build/sick_safetyscanners2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ros2/slam_ws/src/sick_safetyscanners2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/slam_ws/install/sick_safetyscanners2
